@@ -1,0 +1,24 @@
+.navigation {
+  padding: 5px 0;
+  z-index: 1000;
+  width: 100%;
+  background: var(--color-gray);
+  transition: all 0.3s;
+}
+
+.navbar {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .navbar-brand .logo {
+  width: 100px;
+}
+
+.navbar .menu-toggle .menu {
+  font-size: var(--font-32px);
+  text-decoration: none;
+  color: var(--color-blue);
+}
