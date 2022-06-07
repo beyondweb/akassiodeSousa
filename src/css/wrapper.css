@@ -53,3 +53,15 @@
 .cover .image {
   width: 700px;
 }
+/* Feito por jbss */
+.content {
+  display: block;
+  width: auto;
+}
+.content-info {
+  width: auto;
+  padding: 45px 0px;
+}
+.content-info ul li {
+  line-height: 34px;
+}
