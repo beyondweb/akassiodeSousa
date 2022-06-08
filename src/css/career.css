@@ -1,0 +1,25 @@
+.career {
+  padding: 64px 0;
+  background-color: var(--color-blue);
+}
+
+.career .career-title {
+  padding-bottom: 32px;
+  font-size: var(--font-48px);
+  font-weight: 800;
+  color: var(--color-orange);
+}
+
+.career .career-data {
+  padding-bottom: 24px;
+  font-size: var(--font-18px);
+  font-weight: 300;
+  color: var(--color-white);
+}
+
+.career .career-data span {
+  padding-right: 32px;
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--color-orange);
+}
