@@ -1,0 +1,46 @@
+.story {
+  padding: 64px 0;
+  background-color: var(--color-blue);
+  width: 100%;
+}
+.story-box h3 {
+  padding-bottom: 32px;
+  font-size: var(--font-48px);
+  font-weight: 800;
+  color: var(--color-orange);
+}
+.story-box p {
+  max-width: 680px;
+  padding-bottom: 24px;
+  font-size: var(--font-18px);
+  font-weight: 300;
+  color: var(--color-white);
+  line-height: 32px;
+}
+.story-contact h4{
+  padding-bottom: 32px;
+  font-size: var(--font-32px);
+  font-weight: 800;
+  color: var(--color-orange);
+}
+.story-social {
+  display: flex;
+}
+.story-social li a{
+  font-size: var(--font-32px);
+  margin-right: 8px;
+  color: var(--color-white);
+}
+.story-info li {
+  margin: 12px 0px;
+}
+.story-info li a i {
+  font-size: var(--font-18px);
+  margin-right: 8px;
+  color: var(--color-orange)
+}
+.story-info li a span {
+  font-size: var(--font-18px);
+  margin-right: 8px;
+  color: var(--color-white)
+}
