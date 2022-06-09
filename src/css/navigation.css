@@ -22,3 +22,9 @@
   text-decoration: none;
   color: var(--color-blue);
 }
+
+@media screen and (max-width: 576px) {
+  .navbar {
+    padding: 32px 0;
+  }
+}

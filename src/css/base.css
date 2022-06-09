@@ -61,12 +61,19 @@ body {
 }
 
 .container {
-  max-width: 1140px;
-  margin: 0 auto;
+  /* max-width: 1140px; */
+  padding: 0 100px;
+  /* margin: 0 auto; */
 }
 
 .flex {
   display: flex;
   justify-content: space-between;
   gap: 20px;
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    padding: 0 32px;
+  }
 }

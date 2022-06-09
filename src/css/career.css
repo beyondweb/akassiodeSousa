@@ -18,8 +18,18 @@
 }
 
 .career .career-data span {
-  padding-right: 32px;
+  padding-right: 24px;
   font-size: 22px;
   font-weight: 700;
   color: var(--color-orange);
+}
+
+@media screen and (max-width: 576px) {
+  .career .career-data {
+    font-size: 22px;
+    line-height: 32px;
+  }
+  .career .career-data span {
+    font-size: 24px;
+  }
 }

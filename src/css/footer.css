@@ -22,3 +22,16 @@
 .footer .logo img {
   width: 100px;
 }
+
+@media screen and (max-width: 576px) {
+  .footer {
+    padding: 20px 0;
+  }
+  .footer .copyright p {
+    font-size: var(--font-16px);
+    color: var(--color-blue);
+  }
+  .footer .logo img {
+    width: 60px;
+  }
+}

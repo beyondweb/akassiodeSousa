@@ -1,5 +1,5 @@
 .wrapper {
-  height: 700px;
+  height: 100vh;
   background-color: var(--color-blue);
   color: var(--color-white);
   display: flex;
@@ -54,37 +54,76 @@
 .cover .image {
   width: 700px;
 }
+
 .content-box {
   width: 40%;
   overflow: hidden;
-  padding-left: 64px;
+  padding-left: 110px;
 }
+
 .wrapper-avatar {
   width: 60%;
   background: #ffedea;
   overflow: hidden;
-  background-image: url('https://static.poder360.com.br/2021/11/CiroGomes-PDT.jpeg');
+  background-image: url("https://static.poder360.com.br/2021/11/CiroGomes-PDT.jpeg");
   background-position: center;
   background-size: cover;
 }
+
 .wrapper-avatar .avatar {
   max-width: 100%;
   height: 100%;
 }
+
 .box-avatar {
   width: 100%;
   background: #ffedea;
   z-index: 999;
 }
+
 /* Feito por jbss */
 .content {
   display: block;
   width: auto;
 }
+
 .content-info {
   width: auto;
   padding: 45px 0px;
 }
+
 .content-info ul li {
   line-height: 34px;
+}
+
+@media screen and (max-width: 576px) {
+  .wrapper {
+    display: grid;
+    height: auto;
+  }
+  .content-area {
+    padding: 0;
+  }
+  .content-area h1 {
+    font-size: var(--font-64px);
+    line-height: 64px;
+  }
+  .content-area h3 {
+    font-size: var(--font-32px);
+    line-height: 42px;
+  }
+  .content-box {
+    width: 100%;
+    padding: 64px 32px 48px 32px;
+  }
+  .content-info {
+    padding: 48px 0 0px 0;
+  }
+  .wrapper-avatar {
+    width: 100%;
+  }
+  .content-info ul li {
+    font-size: 22px;
+    line-height: 48px;
+  }
 }
